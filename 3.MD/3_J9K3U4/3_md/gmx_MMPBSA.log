@@ -1,0 +1,15 @@
+[INFO   ] Starting gmx_MMPBSA v1.6.2
+[DEBUG  ] WDIR          : /data1/zhouziang/project/aphids_cm/MD/3_J9K3U4/3_md
+[DEBUG  ] AMBERHOME     : /data1/zhouziang/conda/conda/envs/gmxMMPBSA
+[DEBUG  ] PYTHON EXE    : /data1/zhouziang/conda/conda/envs/gmxMMPBSA/bin/python
+[DEBUG  ] PYTHON VERSION: 3.9.12 | packaged by conda-forge | (main, Mar 24 2022, 23:25:59) [GCC 10.3.0]
+[DEBUG  ] MPI           : /data1/zhouziang/conda/conda/envs/gmxMMPBSA/bin/mpirun
+[DEBUG  ] ParmEd        : 0+unknown
+[DEBUG  ] OS PLATFORM   : Linux-6.2.0-34-generic-x86_64-with-glibc2.35
+[DEBUG  ] OS SYSTEM     : Linux
+[DEBUG  ] OS VERSION    : #34~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2
+[DEBUG  ] OS PROCESSOR  : x86_64
+
+[INFO   ] Command-line
+  mpirun -np 64 gmx_MMPBSA MPI -O -i mmpbsa.in -cs md.tpr -ci index.ndx -cg 1 13 -ct md.xtc -cp topol.top -o FINAL_RESULTS_MMPBSA.dat -eo FINAL_RESULTS_MMPBSA.csv
+

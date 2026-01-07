@@ -1,0 +1,39 @@
+#clustering method	cluster number	cluster color	hex color	gene count	protein name	protein identifier	protein description
+kmeans	1	Red	#ff0000	22	ACYPI003417	7029.C4WRQ8	ACYPI003417 protein.
+kmeans	1	Red	#ff0000	22	ACYPI009520	7029.C4WW67	ACYPI009520 protein; Belongs to the protein kinase superfamily.
+kmeans	1	Red	#ff0000	22	Cdk5	7029.J9JP19	Protein kinase domain-containing protein; Belongs to the protein kinase superfamily.
+kmeans	1	Red	#ff0000	22	Ckiibeta	7029.Q201Z0	Casein kinase II subunit beta; Plays a complex role in regulating the basal catalytic activity of the alpha subunit; Belongs to the casein kinase 2 subunit beta family.
+kmeans	1	Red	#ff0000	22	J9JKD4_ACYPI	7029.J9JKD4	Cyclin N-terminal domain-containing protein; Belongs to the cyclin family.
+kmeans	1	Red	#ff0000	22	J9JP34_ACYPI	7029.J9JP34	HATPase_c domain-containing protein.
+kmeans	1	Red	#ff0000	22	J9JP51_ACYPI	7029.J9JP51	Cyclin N-terminal domain-containing protein.
+kmeans	1	Red	#ff0000	22	J9JPF5_ACYPI	7029.J9JPF5	Uncharacterized protein.
+kmeans	1	Red	#ff0000	22	J9JPH9_ACYPI	7029.J9JPH9	Uncharacterized protein.
+kmeans	1	Red	#ff0000	22	J9JSB6_ACYPI	7029.J9JSB6	Histone deacetylase; Belongs to the histone deacetylase family. HD Type 1 subfamily.
+kmeans	1	Red	#ff0000	22	J9JTH4_ACYPI	7029.J9JTH4	Protein kinase domain-containing protein; Belongs to the protein kinase superfamily.
+kmeans	1	Red	#ff0000	22	J9JVA7_ACYPI	7029.J9JVA7	Uncharacterized protein.
+kmeans	1	Red	#ff0000	22	J9JW15_ACYPI	7029.J9JW15	Serine/threonine-protein kinase TOR; Belongs to the PI3/PI4-kinase family.
+kmeans	1	Red	#ff0000	22	J9JZJ5_ACYPI	7029.J9JZJ5	ACYPI31162 protein; Belongs to the cyclin family.
+kmeans	1	Red	#ff0000	22	J9K3U4_ACYPI	7029.J9K3U4	DNA-(apurinic or apyrimidinic site) lyase; Belongs to the DNA repair enzymes AP/ExoA family.
+kmeans	1	Red	#ff0000	22	J9K4Y7_ACYPI	7029.J9K4Y7	DNA topoisomerase 2; Control of topological states of DNA by transient breakage and subsequent rejoining of DNA strands. Topoisomerase II makes double- strand breaks.
+kmeans	1	Red	#ff0000	22	J9K7M8_ACYPI	7029.J9K7M8	Uncharacterized protein.
+kmeans	1	Red	#ff0000	22	J9K871_ACYPI	7029.J9K871	Uncharacterized protein.
+kmeans	1	Red	#ff0000	22	J9K8T4_ACYPI	7029.J9K8T4	SWIRM domain-containing protein.
+kmeans	1	Red	#ff0000	22	J9LIK7_ACYPI	7029.J9LIK7	P53 domain-containing protein.
+kmeans	1	Red	#ff0000	22	Usp	7029.J9JZN9	Uncharacterized protein.
+kmeans	1	Red	#ff0000	22	X1WIH6_ACYPI	7029.X1WIH6	Signal transducer and activator of transcription.
+kmeans	2	Green	#a3ff65	14	J9JJY9_ACYPI	7029.J9JJY9	Uncharacterized protein.
+kmeans	2	Green	#a3ff65	14	J9JKN7_ACYPI	7029.J9JKN7	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+kmeans	2	Green	#a3ff65	14	J9JLB3_ACYPI	7029.J9JLB3	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+kmeans	2	Green	#a3ff65	14	J9JNJ5_ACYPI	7029.J9JNJ5	Uncharacterized protein.
+kmeans	2	Green	#a3ff65	14	J9JQH0_ACYPI	7029.J9JQH0	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+kmeans	2	Green	#a3ff65	14	J9K3K8_ACYPI	7029.J9K3K8	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+kmeans	2	Green	#a3ff65	14	J9K4G2_ACYPI	7029.J9K4G2	Uncharacterized protein; Belongs to the ligand-gated ion channel (TC 1.A.9) family.
+kmeans	2	Green	#a3ff65	14	J9K6V2_ACYPI	7029.J9K6V2	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+kmeans	2	Green	#a3ff65	14	J9K7T1_ACYPI	7029.J9K7T1	G_PROTEIN_RECEP_F1_2 domain-containing protein.
+kmeans	2	Green	#a3ff65	14	J9K8L6_ACYPI	7029.J9K8L6	Dual specificity protein phosphatase; Dual specificity phosphatase able to dephosphorylate phosphotyrosine, phosphoserine and phosphothreonine residues, with a preference for phosphotyrosine as a substrate. Belongs to the protein-tyrosine phosphatase family. Non- receptor class dual specificity subfamily.
+kmeans	2	Green	#a3ff65	14	J9KKD5_ACYPI	7029.J9KKD5	G_PROTEIN_RECEP_F1_2 domain-containing protein.
+kmeans	2	Green	#a3ff65	14	J9KNV9_ACYPI	7029.J9KNV9	Uncharacterized protein.
+kmeans	2	Green	#a3ff65	14	J9LZA2_ACYPI	7029.J9LZA2	G_PROTEIN_RECEP_F1_2 domain-containing protein.
+kmeans	2	Green	#a3ff65	14	X1XTW2_ACYPI	7029.X1XTW2	Uncharacterized protein.
+kmeans	3	Blue	#008eb2	2	ACYPI009796	7029.C4WX31	ACYPI009796 protein.
+kmeans	3	Blue	#008eb2	2	J9JLH1_ACYPI	7029.J9JLH1	Tryptophan 2,3-dioxygenase; Heme-dependent dioxygenase that catalyzes the oxidative cleavage of the L-tryptophan (L-Trp) pyrrole ring and converts L- tryptophan to N-formyl-L-kynurenine. Catalyzes the oxidative cleavage of the indole moiety.

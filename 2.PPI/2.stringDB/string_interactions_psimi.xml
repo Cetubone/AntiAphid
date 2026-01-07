@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<entrySet level="2" version="5" xmlns="net:sf:psidev:mi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="net:sf:psidev:mi http://psidev.sourceforge.net/mi/rel25/src/MIF25.xsd">
+  <entry>
+    <experimentList>
+      <experimentDescription id="7">
+        <names>
+          <shortLabel>automated_textmining</shortLabel>
+          <fullName>Unsupervised, automated mining of biomedical texts: analysis of protein-protein co-mentioning</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="15808823"/>
+            <secondaryRef db="pubmed" id="16046493"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>predictive text mining</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0087"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="6">
+        <names>
+          <shortLabel>knowledge datamining</shortLabel>
+          <fullName>Import of protein-protein association information from curated knowledge databases</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="14681412"/>
+            <secondaryRef db="pubmed" id="15608231"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>experimental knowledge based</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0046"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="5">
+        <names>
+          <shortLabel>experimental_interaction_data</shortLabel>
+          <fullName>Global analysis of protein-protein interaction data, obtained from the literature and from large-scale datasets (BIND database)</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="15608229"/>
+            <secondaryRef db="pubmed" id="15193308"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>experimental knowledge based</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0046"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="4">
+        <names>
+          <shortLabel>gene_coexpression</shortLabel>
+          <fullName>Combined analysis of available microarray data, co-expression analysis</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="9843981"/>
+            <secondaryRef db="pubmed" id="12934013"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>coexpression</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:2231"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="3">
+        <names>
+          <shortLabel>gene_cooccurence</shortLabel>
+          <fullName>Analysis of presence/absence patterns of genes in genomes: functional partners co-occur</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="10200254"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>sequence based phylogenetic profile</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0100"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="2">
+        <names>
+          <shortLabel>gene_fusion_events</shortLabel>
+          <fullName>Detection of gene fusion events: functional linkage inferred for the separate components in other genomes</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="10427000"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+            <secondaryRef db="pubmed" id="10573422"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>domain fusion</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0036"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="1">
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="10077608"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+            <secondaryRef db="pubmed" id="9787636"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>gene neighborhoods</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0057"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="0">
+        <names>
+          <shortLabel>combined_confidence</shortLabel>
+          <fullName>Probabilistic, benchmarked integration of all evidence types: combined confidence score of predicted functional association (range 0.0 to 1.0)</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="15608232"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+    </experimentList>
+    <interactorList>      <interactor id="101">
+        <names>
+          <shortLabel>J9K6N4_ACYPI</shortLabel>
+          <fullName>Protein kinase domain-containing protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K6N4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100167783" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100167783" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100167783" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100167783" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.7.12.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Dual specificity protein kinase CLK2 isoform X4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Dual specificity protein kinase CLK2/3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.7.12.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K6N4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K6N4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K6N4_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Protein kinase domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008185202.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001951299" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008183424.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100167783" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="102">
+        <names>
+          <shortLabel>X1WN16_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="X1WN16" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100166223" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100166223" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100166223" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100166223" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.4.24.81" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.4.24.81" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1WN16" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1WN16" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1WN16_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_003247379.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_003247427" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_003247427.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100166223" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="103">
+        <names>
+          <shortLabel>J9JSJ1_ACYPI</shortLabel>
+          <fullName>Transporter; Belongs to the sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JSJ1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100162110" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100162110" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100162110" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100162110" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JSJ1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JSJ1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JSJ1_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Sodium-dependent serotonin transporter" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Transporter" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001944276.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008187475.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001944311" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001944311.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008185697.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100162110" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="104">
+        <names>
+          <shortLabel>J9JPH9_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JPH9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100160899" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100160899" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160899" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160899" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.1.4.-" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.1.4.-" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JPH9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JPH9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JPH9_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tyrosyl-DNA phosphodiesterase 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001947910.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001947945" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001947945.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100160899" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="105">
+        <names>
+          <shortLabel>J9JQH0_ACYPI</shortLabel>
+          <fullName>G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JQH0" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100161295" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100161295" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100161295" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100161295" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Allatostatin C receptor" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="G_PROTEIN_RECEP_F1_2 domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JQH0" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JQH0" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JQH0_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Somatostatin receptor type 5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001950413.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001950448" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001950448.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100161295" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="106">
+        <names>
+          <shortLabel>ACYPI003417</shortLabel>
+          <fullName>ACYPI003417 protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="C4WRQ8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100162255" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100162255" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100162255" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100162255" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="20S proteasome subunit beta 6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.4.25.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI003417" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI003417 protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WRQ8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WRQ8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WRQ8_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.4.25.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NM_001162664.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_001156136" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_001156136.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Proteasome subunit beta type-like" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100162255" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="107">
+        <names>
+          <shortLabel>X1X3J9_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="X1X3J9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100162013" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100162013" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Sodium-dependent dopamine transporter" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1X3J9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1X3J9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1X3J9_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001944109" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100162013" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="108">
+        <names>
+          <shortLabel>J9JSB6_ACYPI</shortLabel>
+          <fullName>Histone deacetylase; Belongs to the histone deacetylase family. HD Type 1 subfamily.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JSB6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100162023" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100162023" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100162023" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100162023" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.5.1.98" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="3.5.1.98" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.5.1.98" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Histone deacetylase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Histone deacetylase 1/2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Histone deacetylase Rpd3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JSB6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JSB6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JSB6_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001946289.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001946324" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001946324.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100162023" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="109">
+        <names>
+          <shortLabel>J9JLB3_ACYPI</shortLabel>
+          <fullName>G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JLB3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100159625" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100159625" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159625" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159625" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="G_PROTEIN_RECEP_F1_2 domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JLB3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JLB3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JLB3_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="RYamide receptor" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="RYamide receptor-like" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008180505.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_016800970.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_008178727" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008178727.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_016656459.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100159625" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="110">
+        <names>
+          <shortLabel>J9JP34_ACYPI</shortLabel>
+          <fullName>HATPase_c domain-containing protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JP34" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JP34" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100160736" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100160736" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160736" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160736" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="HATPase_c domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Heat shock protein 83" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JP34" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JP34_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Molecular chaperone HtpG" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001943137.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001943172" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001943172.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100160736" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="111">
+        <names>
+          <shortLabel>ACYPI009520</shortLabel>
+          <fullName>ACYPI009520 protein; Belongs to the protein kinase superfamily.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="C4WW67" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100165762" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100165762" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100165762" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100167559" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100167559" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.7.11.22" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.7.11.23" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI009520" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI009520 protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WW67" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WW67" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WW67_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cell division cycle 2 protein-like" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cyclin-dependent kinase 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.7.11.22" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.7.11.23" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NM_001134890.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_001128362" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_001128362.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001951822.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_016807550.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001951857.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_016663039.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100165762" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="112">
+        <names>
+          <shortLabel>Cathd</shortLabel>
+          <fullName>Peptidase A1 domain-containing protein; Belongs to the peptidase A1 family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="X1XAF6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100168373" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100168373" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.4.23.5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="Cathd" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cathepsin D" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cathepsin D precursor" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.4.23.5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_001153867" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Peptidase A1 domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1XAF6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1XAF6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1XAF6_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100168373" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="113">
+        <names>
+          <shortLabel>ACYPI005506</shortLabel>
+          <fullName>ACYPI005506 protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="C4WVG6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="1.1.1.178" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="1.1.1.35" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100164493" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100164493" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164493" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164493" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI005506" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI005506 protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WVG6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WVG6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WVG6_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 1.1.1.178" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 1.1.1.35" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NM_001246102.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_001233031" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_001233031.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Uncharacterized protein LOC100164493" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100164493" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="114">
+        <names>
+          <shortLabel>Usp</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JZN9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100164958" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100164958" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164958" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164958" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JZN9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JZN9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JZN9_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NM_001161668.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_001155140" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_001155140.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Retinoid X receptor alpha" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Ultraspiracle" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="Usp" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100164958" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="115">
+        <names>
+          <shortLabel>J9JKN7_ACYPI</shortLabel>
+          <fullName>G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JKN7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100159355" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100159355" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159355" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159355" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="G_PROTEIN_RECEP_F1_2 domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JKN7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JKN7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JKN7_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Neuromedin U receptor 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Pyrokinin-1 receptor isoform X1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008188007.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_016807048.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_008186229" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008186229.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_016662537.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100159355" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="116">
+        <names>
+          <shortLabel>J9K3D7_ACYPI</shortLabel>
+          <fullName>Defective in cullin neddylation protein; Neddylation of cullins play an essential role in the regulation of SCF-type complexes activity.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K3D7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100166431" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100166431" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100166431" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100166431" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="DCN1-like protein 1/2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Defective in cullin neddylation protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K3D7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K3D7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K3D7_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_001232956" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Uncharacterized protein LOC100166431" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008183046.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008181268.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100166431" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="117">
+        <names>
+          <shortLabel>J9JV02_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JV02" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100163071" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100163071" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100163071" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100163071" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JV02" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JV02" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JV02_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Ras-related protein Rab-9A" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Ras-related protein Rab-9B" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001945972.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001946007" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001946007.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100163071" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="118">
+        <names>
+          <shortLabel>J9JY10_ACYPI</shortLabel>
+          <fullName>Serine/threonine-protein kinase receptor; Belongs to the protein kinase superfamily. TKL Ser/Thr protein kinase family. TGFB receptor subfamily.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JY10" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164283" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164283" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2.7.11.30" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JY10" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JY10" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JY10_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Serine/threonine-protein kinase receptor" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_003244971.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_003245019.1" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="119">
+        <names>
+          <shortLabel>J9K0Q3_ACYPI</shortLabel>
+          <fullName>Chryptochrome 1.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K0Q3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100164391" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100164391" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164391" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164391" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.3.2.13" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Chryptochrome 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.3.2.13" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K0Q3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K0Q3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K0Q3_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Transglutaminase 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001947197.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001947232" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001947232.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100164391" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="120">
+        <names>
+          <shortLabel>J9JKC9_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JKC9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100159231" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100159231" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159231" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159231" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JKC9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JKC9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JKC9_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Krueppel-like factor 4 isoform X1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Krueppel-like factor 5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001944998.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001945033" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001945033.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100159231" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="121">
+        <names>
+          <shortLabel>J9K8L6_ACYPI</shortLabel>
+          <fullName>Dual specificity protein phosphatase; Dual specificity phosphatase able to dephosphorylate phosphotyrosine, phosphoserine and phosphothreonine residues, with a preference for phosphotyrosine as a substrate. Belongs to the protein-tyrosine phosphatase family. Non- receptor class dual specificity subfamily.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K8L6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100168576" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100168576" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100168576" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100168576" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.1.3.16" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="3.1.3.16" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.1.3.48" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="3.1.3.48" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Dual specificity phosphatase 3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Dual specificity protein phosphatase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Dual specificity protein phosphatase 3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.1.3.16" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.1.3.48" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K8L6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K8L6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K8L6_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008187689.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008187690.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008187692.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008187693.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_016806762.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_008185911" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008185911.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008185912.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008185914.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008185915.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_016662251.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100168576" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="122">
+        <names>
+          <shortLabel>J9JW15_ACYPI</shortLabel>
+          <fullName>Serine/threonine-protein kinase TOR; Belongs to the PI3/PI4-kinase family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JW15" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100163481" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100163481" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100163481" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100163481" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.7.11.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2.7.11.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.7.11.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JW15" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JW15" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JW15_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Serine/threonine-protein kinase TOR" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Serine/threonine-protein kinase mTOR" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001948083.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001948118" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001948118.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100163481" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="123">
+        <names>
+          <shortLabel>J9K1S7_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K1S7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100165792" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100165792" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100165792" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100165792" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.4.16.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.4.16.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K1S7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K1S7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K1S7_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Lysosomal Pro-X carboxypeptidase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001949443.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001949478" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001949478.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100165792" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="124">
+        <names>
+          <shortLabel>X1XTS2_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein; Belongs to the cytochrome P450 family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="X1XTS2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="1.14.-.-" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100162056" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100162056" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cytochrome P450 family 6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 1.14.-.-" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="LOW QUALITY PROTEIN: cytochrome P450 6k1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1XTS2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1XTS2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1XTS2_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_016660356" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100162056" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="125">
+        <names>
+          <shortLabel>J9JX53_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JX53" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100163936" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100163936" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JX53" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JX53" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JX53_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_016660802" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100163936" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="126">
+        <names>
+          <shortLabel>Cdk5</shortLabel>
+          <fullName>Protein kinase domain-containing protein; Belongs to the protein kinase superfamily.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JP19" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100160718" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100160718" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160718" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160718" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.7.11.22" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="Cdk5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cell division protein kinase 5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cyclin-dependent kinase 5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.7.11.22" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JP19" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JP19" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JP19_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NM_001168424.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_001161896" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_001161896.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Protein kinase domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100160718" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="127">
+        <names>
+          <shortLabel>J9KKD5_ACYPI</shortLabel>
+          <fullName>G_PROTEIN_RECEP_F1_2 domain-containing protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9KKD5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100570822" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100570822" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100570822" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Adenosine receptor A2a" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Adenosine receptor A2b-like" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="G_PROTEIN_RECEP_F1_2 domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9KKD5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9KKD5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9KKD5_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_016807092.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_016662581.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_029344486" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100570822" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="128">
+        <names>
+          <shortLabel>J9K7T1_ACYPI</shortLabel>
+          <fullName>G_PROTEIN_RECEP_F1_2 domain-containing protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K7T1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100168249" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100168249" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100168249" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100168249" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="5-hydroxytryptamine receptor 2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="5-hydroxytryptamine receptor 2B" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="G_PROTEIN_RECEP_F1_2 domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K7T1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K7T1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K7T1_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001947518.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001947553" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001947553.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100168249" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="129">
+        <names>
+          <shortLabel>J9K871_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K871" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100168406" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100168406" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100168406" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100168406" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.1.1.356" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.1.1.356" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Histone-lysine N-methyltransferase E(z)" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K871" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K871" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K871_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001947268.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008184975.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001947303" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001947303.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008183197.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100168406" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="130">
+        <names>
+          <shortLabel>J9JNJ5_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JNJ5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100160524" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100160524" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160524" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160524" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Glutamate [NMDA] receptor subunit 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Glutamate receptor ionotropic, NMDA 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JNJ5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JNJ5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JNJ5_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001949825.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001949860" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001949860.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100160524" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="131">
+        <names>
+          <shortLabel>J9K7M8_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K7M8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100168190" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100168190" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100168190" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100168190" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="B-box type zinc finger protein ncl-1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K7M8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K7M8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K7M8_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tripartite motif-containing protein 2/3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001944599.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_016807980.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001944634" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001944634.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_016663469.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100168190" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="132">
+        <names>
+          <shortLabel>J9JTH4_ACYPI</shortLabel>
+          <fullName>Protein kinase domain-containing protein; Belongs to the protein kinase superfamily.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JTH4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100162479" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100162479" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100162479" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100162479" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.7.11.22" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cyclin-dependent kinase 2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cyclin-dependent kinase 2 isoform X2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.7.11.22" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JTH4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JTH4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JTH4_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Protein kinase domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001949751.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001949786" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001949786.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100162479" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="133">
+        <names>
+          <shortLabel>J9K3U4_ACYPI</shortLabel>
+          <fullName>DNA-(apurinic or apyrimidinic site) lyase; Belongs to the DNA repair enzymes AP/ExoA family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K3U4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100166616" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100166616" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100166616" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100166616" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="4.2.99.18" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4.2.99.18" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="AP endonuclease 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="DNA-(apurinic or apyrimidinic site) lyase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="DNA-(apurinic or apyrimidinic site) lyase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 4.2.99.18" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K3U4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K3U4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K3U4_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008180925.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_008179147" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008179147.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100166616" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="134">
+        <names>
+          <shortLabel>J9JPF5_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JPF5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100160876" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100160876" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160876" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160876" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JPF5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JPF5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JPF5_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001949118.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001949153" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001949153.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100160876" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="135">
+        <names>
+          <shortLabel>X1WIH6_ACYPI</shortLabel>
+          <fullName>Signal transducer and activator of transcription.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="X1WIH6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100161101" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100161101" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100161101" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100161101" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Signal transducer and activator of transcription" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1WIH6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1WIH6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1WIH6_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001946610.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001946645" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001946645.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100161101" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="136">
+        <names>
+          <shortLabel>J9JLH1_ACYPI</shortLabel>
+          <fullName>Tryptophan 2,3-dioxygenase; Heme-dependent dioxygenase that catalyzes the oxidative cleavage of the L-tryptophan (L-Trp) pyrrole ring and converts L- tryptophan to N-formyl-L-kynurenine. Catalyzes the oxidative cleavage of the indole moiety.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JLH1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="1.13.11.11" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1.13.11.11" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100159695" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100159695" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159695" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159695" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 1.13.11.11" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JLH1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JLH1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JLH1_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TDO" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TO" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TRPO" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Tryptamin 2,3-dioxygenase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tryptophan 2,3-dioxygenase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Tryptophan 2,3-dioxygenase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tryptophan 2,3-dioxygenase-like isoform X2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Tryptophan oxygenase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Tryptophan pyrrolase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Tryptophanase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001945810.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001945845" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001945845.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100159695" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="137">
+        <names>
+          <shortLabel>J9K6V2_ACYPI</shortLabel>
+          <fullName>G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K6V2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100167869" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100167869" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Allatostatin A receptor" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Allatostatin-A receptor-like" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="G_PROTEIN_RECEP_F1_2 domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K6V2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K6V2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K6V2_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_029343937" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100167869" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="138">
+        <names>
+          <shortLabel>Ckiibeta</shortLabel>
+          <fullName>Casein kinase II subunit beta; Plays a complex role in regulating the basal catalytic activity of the alpha subunit; Belongs to the casein kinase 2 subunit beta family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="Q201Z0" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100145847" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100145847" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100145847" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100145847" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI000089" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="CK II beta" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Casein kinase II beta subunit" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Casein kinase II subunit beta" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Casein kinase II subunit beta" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="Ckiibeta" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NM_001126225.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_001119697" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_001119697.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Q201Z0" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Q201Z0" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Q201Z0_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_016801049.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_016656538.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100145847" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="139">
+        <names>
+          <shortLabel>J9K4Y7_ACYPI</shortLabel>
+          <fullName>DNA topoisomerase 2; Control of topological states of DNA by transient breakage and subsequent rejoining of DNA strands. Topoisomerase II makes double- strand breaks.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K4Y7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100167074" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100167074" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100167074" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100167074" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="5.6.2.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="5.6.2.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="DNA topoisomerase 2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="DNA topoisomerase 2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="DNA topoisomerase II" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 5.6.2.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K4Y7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K4Y7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K4Y7_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001948505.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008190401.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_016808858.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001948540" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001948540.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008188623.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_016664347.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100167074" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="140">
+        <names>
+          <shortLabel>J9K4G2_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein; Belongs to the ligand-gated ion channel (TC 1.A.9) family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K4G2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K4G2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K4G2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K4G2_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="141">
+        <names>
+          <shortLabel>J9K3K8_ACYPI</shortLabel>
+          <fullName>G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K3K8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100166514" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100166514" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100166514" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="G_PROTEIN_RECEP_F1_2 domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K3K8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K3K8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K3K8_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Octopamine receptor" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Octopamine/tyramine receptor" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001943968.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001944003.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_029343228" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100166514" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="142">
+        <names>
+          <shortLabel>J9K8T4_ACYPI</shortLabel>
+          <fullName>SWIRM domain-containing protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9K8T4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="1.14.99.66" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100168654" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100168654" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 1.14.99.66" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K8T4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K8T4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9K8T4_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Lysine-specific histone demethylase 1A" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="SWIRM domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_029345612" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100168654" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="143">
+        <names>
+          <shortLabel>J9KNV9_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9KNV9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100571992" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100571992" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100571992" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100571992" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Allatostatin C" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9KNV9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9KNV9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9KNV9_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_003243978.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_003244026" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_003244026.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100571992" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="144">
+        <names>
+          <shortLabel>J9JP51_ACYPI</shortLabel>
+          <fullName>Cyclin N-terminal domain-containing protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JP51" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100160758" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100160758" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="CDK5 and ABL1 enzyme substrate 1 isoform X2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Cyclin N-terminal domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JP51" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JP51" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JP51_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001943266" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100160758" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="145">
+        <names>
+          <shortLabel>J9JZJ5_ACYPI</shortLabel>
+          <fullName>ACYPI31162 protein; Belongs to the cyclin family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JZJ5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100164903" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100164903" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164903" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164903" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI31162 protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cyclin-Y" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JZJ5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JZJ5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JZJ5_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001948529.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001948564" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001948564.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100164903" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="146">
+        <names>
+          <shortLabel>J9JJY9_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JJY9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100159067" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100159067" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159067" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JJY9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JJY9" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JJY9_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_016807843.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_016663332.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_029346925" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100159067" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="147">
+        <names>
+          <shortLabel>X1XTW2_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="X1XTW2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100575917" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100575917" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100575917" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100575917" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Short neuropeptide F" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1XTW2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1XTW2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="X1XTW2_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_003247202.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_003247250" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_003247250.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100575917" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="148">
+        <names>
+          <shortLabel>J9KKA1_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9KKA1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100571148" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100571148" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100571148" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9KKA1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9KKA1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9KKA1_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Uncharacterized protein LOC100571148" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008189113.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008187335.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_029346936" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100571148" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="149">
+        <names>
+          <shortLabel>J9LZA2_ACYPI</shortLabel>
+          <fullName>G_PROTEIN_RECEP_F1_2 domain-containing protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9LZA2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="G_PROTEIN_RECEP_F1_2 domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9LZA2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9LZA2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9LZA2_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="150">
+        <names>
+          <shortLabel>J9JKD4_ACYPI</shortLabel>
+          <fullName>Cyclin N-terminal domain-containing protein; Belongs to the cyclin family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JKD4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159237" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100159237" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100159237" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100159237" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Cyclin N-terminal domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="G1/S-specific cyclin-E" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="G1/S-specific cyclin-E1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JKD4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JKD4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JKD4_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_003240169.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008180814.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008180817.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_016801503.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_003240217" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_003240217.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008179036.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008179039.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_016656992.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100159237" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="151">
+        <names>
+          <shortLabel>J9LIK7_ACYPI</shortLabel>
+          <fullName>P53 domain-containing protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9LIK7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9LIK7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100575088" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100575088" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100575088" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100575088" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cellular tumor antigen p53 isoform X1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9LIK7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9LIK7_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P53 domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tumor protein p53" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_008184450.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_008182672" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_008182672.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100575088" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="152">
+        <names>
+          <shortLabel>J9JPR1_ACYPI</shortLabel>
+          <fullName>Cyclin N-terminal domain-containing protein; Belongs to the cyclin family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JPR1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100160996" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100160996" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160996" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100160996" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Cyclin N-terminal domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cyclin-A" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cyclin-A2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JPR1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JPR1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JPR1_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001942793.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001942828" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001942828.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100160996" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="153">
+        <names>
+          <shortLabel>J9JVA7_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JVA7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JVA7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JVA7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100163194" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100163194" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.1.3.16" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.1.3.48" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="3.1.3.67" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.1.3.16" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.1.3.48" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 3.1.3.67" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JVA7_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_003242877" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100163194" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="154">
+        <names>
+          <shortLabel>ACYPI009796</shortLabel>
+          <fullName>ACYPI009796 protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="C4WX31" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100169152" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100169152" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100169152" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100169152" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI009796" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI009796 protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WX31" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WX31" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WX31_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NM_001162835.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_001156307" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_001156307.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Protein retroactive precursor" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="Rtv" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100169152" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="155">
+        <names>
+          <shortLabel>J9JZI5_ACYPI</shortLabel>
+          <fullName>Cyclin N-terminal domain-containing protein; Belongs to the cyclin family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9JZI5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100164890" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100164890" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164890" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100164890" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Cyclin N-terminal domain-containing protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="G1/S-specific cyclin-D2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JZI5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JZI5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9JZI5_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_001952315.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_001952350" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_001952350.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100164890" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="156">
+        <names>
+          <shortLabel>ACYPI008338</shortLabel>
+          <fullName>ACYPI008338 protein; Belongs to the cyclin family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="C4WWU7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100167546" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100167546" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100167546" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100167546" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI008338" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ACYPI008338 protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WWU7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WWU7" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="C4WWU7_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Cyclin D2-like" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="G1/S-specific cyclin-D2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NM_001162284.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_001155756" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_001155756.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100167546" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="157">
+        <names>
+          <shortLabel>J9LZL8_ACYPI</shortLabel>
+          <fullName>Uncharacterized protein.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="J9LZL8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="100568735" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="100568735" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100568735" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="100569278" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9LZL8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9LZL8" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="J9LZL8_ACYPI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tachykinins-like" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Uncharacterized protein" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_003246197.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XM_003246200.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="XP_003246245" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_003246245.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="XP_003246248.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="api:100568735" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+    </interactorList>    <interactionList>      <interaction id="158">
+        <experimentList>
+          <experimentRef>4</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="159">
+            <interactorRef>157</interactorRef>
+          </participant>
+          <participant id="160">
+            <interactorRef>147</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.239</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+      <interaction id="161">
+        <experimentList>
+          <experimentRef>7</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="159">
+            <interactorRef>157</interactorRef>
+          </participant>
+          <participant id="160">
+            <interactorRef>147</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.634</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+      <interaction id="162">
+        <experimentList>
+          <experimentRef>0</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="159">
+            <interactorRef>157</interactorRef>
+          </participant>
+          <participant id="160">
+            <interactorRef>147</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.709</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+      <interaction id="163">
+        <experimentList>
+          <experimentRef>7</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="164">
+            <interactorRef>148</interactorRef>
+          </participant>
+          <participant id="165">
+            <interactorRef>157</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.614</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+      <interaction id="166">
+        <experimentList>
+          <experimentRef>0</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="164">
+            <interactorRef>148</interactorRef>
+          </participant>
+          <participant id="165">
+            <interactorRef>157</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.614</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+    </interactionList>  </entry>
+</entrySet>
+
+

@@ -1,0 +1,86 @@
+#queryIndex	queryItem	stringId	identity	bitscore	preferredName	annotation
+1	tr|A0A9P0JH82|A0A9P0JH82_APHGO	7029.J9K3U4	88.0	565.8	J9K3U4_ACYPI	DNA-(apurinic or apyrimidinic site) lyase; Belongs to the DNA repair enzymes AP/ExoA family.
+2	tr|A0A6G0TQ04|A0A6G0TQ04_APHGL	7029.J9K3U4	88.6	569.7	J9K3U4_ACYPI	DNA-(apurinic or apyrimidinic site) lyase; Belongs to the DNA repair enzymes AP/ExoA family.
+3	tr|A0A5E4NH56|A0A5E4NH56_9HEMI	7029.J9K3U4	79.2	518.1	J9K3U4_ACYPI	DNA-(apurinic or apyrimidinic site) lyase; Belongs to the DNA repair enzymes AP/ExoA family.
+4	tr|A0A5E4NDZ8|A0A5E4NDZ8_9HEMI	7029.J9K7M8	91.9	1516.9	J9K7M8_ACYPI	Uncharacterized protein.
+5	tr|A0A5E4N6R0|A0A5E4N6R0_9HEMI	7029.J9KKD5	62.3	324.7	J9KKD5_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein.
+6	tr|A0A6G0YRV6|A0A6G0YRV6_APHCR	7029.J9KKD5	72.1	376.7	J9KKD5_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein.
+7	tr|A0A5E4LZ69|A0A5E4LZ69_9HEMI	7029.J9K8T4	90.6	829.7	J9K8T4_ACYPI	SWIRM domain-containing protein.
+8	tr|A0A9P0NIK1|A0A9P0NIK1_APHGO	7029.C4WVG6	93.3	473.4	ACYPI005506	ACYPI005506 protein.
+9	tr|A0A5E4MMT5|A0A5E4MMT5_9HEMI	7029.Q201Z0	99.1	471.5	Ckiibeta	Casein kinase II subunit beta; Plays a complex role in regulating the basal catalytic activity of the alpha subunit; Belongs to the casein kinase 2 subunit beta family.
+10	tr|A0A5E4MN10|A0A5E4MN10_9HEMI	7029.Q201Z0	98.8	360.5	Ckiibeta	Casein kinase II subunit beta; Plays a complex role in regulating the basal catalytic activity of the alpha subunit; Belongs to the casein kinase 2 subunit beta family.
+11	tr|A0A5E4NCW0|A0A5E4NCW0_9HEMI	7029.X1XAF6	80.5	656.0	Cathd	Peptidase A1 domain-containing protein; Belongs to the peptidase A1 family.
+12	tr|A0A6G0Z746|A0A6G0Z746_APHCR	7029.X1XAF6	93.1	750.4	Cathd	Peptidase A1 domain-containing protein; Belongs to the peptidase A1 family.
+13	tr|A0A5E4NI50|A0A5E4NI50_9HEMI	7029.J9JPH9	62.9	599.7	J9JPH9_ACYPI	Uncharacterized protein.
+14	tr|A0A6G0ZBK9|A0A6G0ZBK9_APHCR	7029.J9JPH9	73.2	697.2	J9JPH9_ACYPI	Uncharacterized protein.
+15	tr|A0A9P0JFD9|A0A9P0JFD9_APHGO	7029.J9JPH9	73.8	704.1	J9JPH9_ACYPI	Uncharacterized protein.
+16	tr|A0A5E4NJZ6|A0A5E4NJZ6_9HEMI	7029.J9JZN9	88.7	774.2	Usp	Uncharacterized protein.
+17	tr|C5IJJ4|C5IJJ4_ACYPI	7029.J9JZN9	100.0	869.0	Usp	Uncharacterized protein.
+18	tr|A0A5E4NRV0|A0A5E4NRV0_9HEMI	7029.J9K4G2	89.5	708.4	J9K4G2_ACYPI	Uncharacterized protein; Belongs to the ligand-gated ion channel (TC 1.A.9) family.
+19	tr|A0A164TER7|A0A164TER7_RHOPD	7029.J9JP34	97.7	1269.6	J9JP34_ACYPI	HATPase_c domain-containing protein.
+20	tr|A0A6G0Z8A3|A0A6G0Z8A3_APHCR	7029.J9JP34	98.6	1283.1	J9JP34_ACYPI	HATPase_c domain-containing protein.
+21	tr|A0A6G0YC24|A0A6G0YC24_APHCR	7029.J9JV02	93.1	417.5	J9JV02_ACYPI	Uncharacterized protein.
+22	tr|A0A6G0TYI2|A0A6G0TYI2_APHGL	7029.J9JV02	91.2	407.5	J9JV02_ACYPI	Uncharacterized protein.
+23	tr|A0A6G0U995|A0A6G0U995_APHGL	7029.X1WIH6	98.5	1471.8	X1WIH6_ACYPI	Signal transducer and activator of transcription.
+24	tr|A0A6G0ZE90|A0A6G0ZE90_APHCR	7029.X1WIH6	98.5	1471.1	X1WIH6_ACYPI	Signal transducer and activator of transcription.
+25	tr|A0A5E4N9T4|A0A5E4N9T4_9HEMI	7029.C4WRQ8	93.2	431.8	ACYPI003417	ACYPI003417 protein.
+26	tr|A0A481SWA9|A0A481SWA9_9HEMI	7029.C4WRQ8	95.0	437.2	ACYPI003417	ACYPI003417 protein.
+27	tr|A0A5E4NKN7|A0A5E4NKN7_9HEMI	7029.J9JKC9	74.7	277.3	J9JKC9_ACYPI	Uncharacterized protein.
+28	tr|A0A9P0IW28|A0A9P0IW28_APHGO	7029.J9JKC9	97.2	288.9	J9JKC9_ACYPI	Uncharacterized protein.
+29	tr|A0A5E4NK92|A0A5E4NK92_9HEMI	7029.J9JKC9	78.8	397.1	J9JKC9_ACYPI	Uncharacterized protein.
+30	tr|A0A6G0TSS1|A0A6G0TSS1_APHGL	7029.J9K4Y7	93.2	2412.5	J9K4Y7_ACYPI	DNA topoisomerase 2; Control of topological states of DNA by transient breakage and subsequent rejoining of DNA strands. Topoisomerase II makes double- strand breaks.
+31	tr|A0A9P0NDL7|A0A9P0NDL7_APHGO	7029.J9K4Y7	96.2	2409.8	J9K4Y7_ACYPI	DNA topoisomerase 2; Control of topological states of DNA by transient breakage and subsequent rejoining of DNA strands. Topoisomerase II makes double- strand breaks.
+32	tr|A0A6G0YAM4|A0A6G0YAM4_APHCR	7029.J9K4Y7	96.5	2410.2	J9K4Y7_ACYPI	DNA topoisomerase 2; Control of topological states of DNA by transient breakage and subsequent rejoining of DNA strands. Topoisomerase II makes double- strand breaks.
+33	tr|A0A5B9D536|A0A5B9D536_APHGL	7029.X1XTS2	91.9	811.6	X1XTS2_ACYPI	Uncharacterized protein; Belongs to the cytochrome P450 family.
+34	tr|A0A5E4NMR4|A0A5E4NMR4_9HEMI	7029.X1XTS2	80.4	713.0	X1XTS2_ACYPI	Uncharacterized protein; Belongs to the cytochrome P450 family.
+35	tr|A0A6G0Y206|A0A6G0Y206_APHCR	7029.X1XTS2	92.4	814.7	X1XTS2_ACYPI	Uncharacterized protein; Belongs to the cytochrome P450 family.
+36	tr|A0A5E4NMX9|A0A5E4NMX9_9HEMI	7029.J9K0Q3	81.8	1199.9	J9K0Q3_ACYPI	Chryptochrome 1.
+37	tr|A0A6G0TII8|A0A6G0TII8_APHGL	7029.J9K0Q3	91.2	1332.0	J9K0Q3_ACYPI	Chryptochrome 1.
+38	tr|A0A5E4M7W5|A0A5E4M7W5_9HEMI	7029.J9JP19	98.6	599.4	Cdk5	Protein kinase domain-containing protein; Belongs to the protein kinase superfamily.
+39	tr|A0A6G0TDM3|A0A6G0TDM3_APHGL	7029.J9JP19	96.4	594.0	Cdk5	Protein kinase domain-containing protein; Belongs to the protein kinase superfamily.
+40	tr|A0A5E4NCK1|A0A5E4NCK1_9HEMI	7029.J9JTH4	89.5	596.3	J9JTH4_ACYPI	Protein kinase domain-containing protein; Belongs to the protein kinase superfamily.
+41	tr|A0A5E4NB66|A0A5E4NB66_9HEMI	7029.C4WW67	91.1	575.9	ACYPI009520	ACYPI009520 protein; Belongs to the protein kinase superfamily.
+42	tr|A0A6G0U1A8|A0A6G0U1A8_APHGL	7029.J9JX53	92.0	2231.4	J9JX53_ACYPI	Uncharacterized protein.
+43	tr|A0A6G0ZKN7|A0A6G0ZKN7_APHCR	7029.J9JX53	92.0	2230.3	J9JX53_ACYPI	Uncharacterized protein.
+44	tr|A0A9P0NGE4|A0A9P0NGE4_APHGO	7029.J9JLB3	88.0	726.1	J9JLB3_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+45	tr|A0A6G0TEQ7|A0A6G0TEQ7_APHGL	7029.J9K3K8	82.0	542.0	J9K3K8_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+46	tr|A0A5E4N2M4|A0A5E4N2M4_9HEMI	7029.J9K3K8	77.6	512.3	J9K3K8_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+47	tr|A0A6G0ZPK9|A0A6G0ZPK9_APHCR	7029.J9K3K8	80.1	554.7	J9K3K8_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+48	tr|A0A5E4N3I4|A0A5E4N3I4_9HEMI	7029.J9JQH0	82.3	641.0	J9JQH0_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+49	tr|A0A9P0IX09|A0A9P0IX09_APHGO	7029.J9JQH0	95.1	718.8	J9JQH0_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+50	tr|A0A6G0TEK5|A0A6G0TEK5_APHGL	7029.J9K7T1	81.5	377.5	J9K7T1_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein.
+51	tr|A0A6G0ZIM4|A0A6G0ZIM4_APHCR	7029.J9K7T1	87.5	384.8	J9K7T1_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein.
+52	tr|A0A5E4N7S1|A0A5E4N7S1_9HEMI	7029.J9JLH1	81.1	553.9	J9JLH1_ACYPI	Tryptophan 2,3-dioxygenase; Heme-dependent dioxygenase that catalyzes the oxidative cleavage of the L-tryptophan (L-Trp) pyrrole ring and converts L- tryptophan to N-formyl-L-kynurenine. Catalyzes the oxidative cleavage of the indole moiety.
+53	tr|A0A5E4NBR6|A0A5E4NBR6_9HEMI	7029.J9K6N4	98.1	736.1	J9K6N4_ACYPI	Protein kinase domain-containing protein.
+54	tr|A0A5E4N8Z8|A0A5E4N8Z8_9HEMI	7029.J9K6N4	98.1	736.1	J9K6N4_ACYPI	Protein kinase domain-containing protein.
+55	tr|A0A9P0NGN0|A0A9P0NGN0_APHGO	7029.J9K6N4	98.9	739.6	J9K6N4_ACYPI	Protein kinase domain-containing protein.
+56	tr|A0A5E4NFD2|A0A5E4NFD2_9HEMI	7029.J9K6N4	97.5	731.5	J9K6N4_ACYPI	Protein kinase domain-containing protein.
+57	tr|A0A5E4NC08|A0A5E4NC08_9HEMI	7029.J9K6N4	98.4	736.1	J9K6N4_ACYPI	Protein kinase domain-containing protein.
+58	tr|A0A5E4N7N9|A0A5E4N7N9_9HEMI	7029.J9JSB6	98.6	1000.3	J9JSB6_ACYPI	Histone deacetylase; Belongs to the histone deacetylase family. HD Type 1 subfamily.
+59	tr|A0A6G0T7N3|A0A6G0T7N3_APHGL	7029.J9JSB6	99.2	1004.2	J9JSB6_ACYPI	Histone deacetylase; Belongs to the histone deacetylase family. HD Type 1 subfamily.
+60	tr|A0A6G0YV10|A0A6G0YV10_APHCR	7029.J9JSB6	99.0	976.1	J9JSB6_ACYPI	Histone deacetylase; Belongs to the histone deacetylase family. HD Type 1 subfamily.
+61	tr|A0A5E4NLG2|A0A5E4NLG2_9HEMI	7029.J9K8L6	77.3	297.7	J9K8L6_ACYPI	Dual specificity protein phosphatase; Dual specificity phosphatase able to dephosphorylate phosphotyrosine, phosphoserine and phosphothreonine residues, with a preference for phosphotyrosine as a substrate. Belongs to the protein-tyrosine phosphatase family. Non- receptor class dual specificity subfamily.
+62	tr|A0A6G0TQV2|A0A6G0TQV2_APHGL	7029.J9K8L6	95.9	375.9	J9K8L6_ACYPI	Dual specificity protein phosphatase; Dual specificity phosphatase able to dephosphorylate phosphotyrosine, phosphoserine and phosphothreonine residues, with a preference for phosphotyrosine as a substrate. Belongs to the protein-tyrosine phosphatase family. Non- receptor class dual specificity subfamily.
+63	tr|A0A6G0YJX2|A0A6G0YJX2_APHCR	7029.J9K8L6	94.9	372.5	J9K8L6_ACYPI	Dual specificity protein phosphatase; Dual specificity phosphatase able to dephosphorylate phosphotyrosine, phosphoserine and phosphothreonine residues, with a preference for phosphotyrosine as a substrate. Belongs to the protein-tyrosine phosphatase family. Non- receptor class dual specificity subfamily.
+64	tr|A0A6G0ZE06|A0A6G0ZE06_APHCR	7029.J9K3D7	94.8	533.1	J9K3D7_ACYPI	Defective in cullin neddylation protein; Neddylation of cullins play an essential role in the regulation of SCF-type complexes activity.
+65	tr|A0A5E4MJB8|A0A5E4MJB8_9HEMI	7029.J9JKN7	66.6	567.4	J9JKN7_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+66	tr|A0A6G0TFN4|A0A6G0TFN4_APHGL	7029.J9JKN7	92.0	713.8	J9JKN7_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+67	tr|A0A6G0Y3E1|A0A6G0Y3E1_APHCR	7029.J9JPF5	91.2	812.4	J9JPF5_ACYPI	Uncharacterized protein.
+68	tr|A0A5E4M2B5|A0A5E4M2B5_9HEMI	7029.J9JSJ1	93.0	1142.5	J9JSJ1_ACYPI	Transporter; Belongs to the sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family.
+69	tr|A0A6G0U8P1|A0A6G0U8P1_APHGL	7029.X1X3J9	91.9	1023.1	X1X3J9_ACYPI	Uncharacterized protein.
+70	tr|A0A6G0TZQ2|A0A6G0TZQ2_APHGL	7029.J9JY10	89.3	966.1	J9JY10_ACYPI	Serine/threonine-protein kinase receptor; Belongs to the protein kinase superfamily. TKL Ser/Thr protein kinase family. TGFB receptor subfamily.
+71	tr|A0A6G0YKC6|A0A6G0YKC6_APHCR	7029.J9JY10	84.7	920.2	J9JY10_ACYPI	Serine/threonine-protein kinase receptor; Belongs to the protein kinase superfamily. TKL Ser/Thr protein kinase family. TGFB receptor subfamily.
+72	tr|A0A5E4NKD7|A0A5E4NKD7_9HEMI	7029.J9K6V2	91.0	583.6	J9K6V2_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+73	tr|A0A6G0Z7A0|A0A6G0Z7A0_APHCR	7029.J9K6V2	95.6	287.3	J9K6V2_ACYPI	G_PROTEIN_RECEP_F1_2 domain-containing protein; Belongs to the G-protein coupled receptor 1 family.
+74	tr|A0A6G0Y0C6|A0A6G0Y0C6_APHCR	7029.J9K871	94.5	1430.2	J9K871_ACYPI	Uncharacterized protein.
+75	tr|A0A5E4N3W0|A0A5E4N3W0_9HEMI	7029.J9K871	90.8	1382.5	J9K871_ACYPI	Uncharacterized protein.
+76	tr|A0A5E4NA19|A0A5E4NA19_9HEMI	7029.J9JNJ5	93.8	1786.9	J9JNJ5_ACYPI	Uncharacterized protein.
+77	tr|A0A6G0TBH6|A0A6G0TBH6_APHGL	7029.J9K8T4	94.6	862.4	J9K8T4_ACYPI	SWIRM domain-containing protein.
+78	tr|A0A9P0J878|A0A9P0J878_APHGO	7029.J9K8T4	94.1	857.8	J9K8T4_ACYPI	SWIRM domain-containing protein.
+79	tr|A0A6G0TE90|A0A6G0TE90_APHGL	7029.J9JW15	95.0	4668.6	J9JW15_ACYPI	Serine/threonine-protein kinase TOR; Belongs to the PI3/PI4-kinase family.
+80	tr|A0A6G0YQ92|A0A6G0YQ92_APHCR	7029.J9JW15	94.2	4630.9	J9JW15_ACYPI	Serine/threonine-protein kinase TOR; Belongs to the PI3/PI4-kinase family.
+81	tr|A0A9P0NB95|A0A9P0NB95_APHGO	7029.J9JW15	95.3	4680.2	J9JW15_ACYPI	Serine/threonine-protein kinase TOR; Belongs to the PI3/PI4-kinase family.
+82	tr|A0A5E4M850|A0A5E4M850_9HEMI	7029.X1WN16	88.0	1548.5	X1WN16_ACYPI	Uncharacterized protein.
+83	tr|A0A5E4MCR0|A0A5E4MCR0_9HEMI	7029.X1WN16	85.7	1534.6	X1WN16_ACYPI	Uncharacterized protein.
+84	tr|A0A9P0IXC3|A0A9P0IXC3_APHGO	7029.J9K1S7	86.5	930.6	J9K1S7_ACYPI	Uncharacterized protein.
+85	tr|A0A6G0Y4S6|A0A6G0Y4S6_APHCR	7029.J9K1S7	87.0	934.9	J9K1S7_ACYPI	Uncharacterized protein.
